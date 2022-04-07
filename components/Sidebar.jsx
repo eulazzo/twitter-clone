@@ -9,12 +9,19 @@ const Sidebar = () => {
         <Image src="https://rb.gy/ogau5a" width={30} height={30} />
       </div>
 
-      <div className="space-y-2.5 mt-4 mb-2.5">
+      <div className="space-y-2.5 mt-4 mb-2.5 xl:ml-24">
         <SideBarLink />
       </div>
-
     </div>
   );
 };
 
 export default Sidebar;
+
+// const generateUUID = () => {
+//   return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, function (c) {
+//     let r = (Math.random() * 16) | 0,
+//       v = c === "x" ? r : (r & 0x3) | 0x8;
+//     return v.toString(16);
+//   });
+// };
